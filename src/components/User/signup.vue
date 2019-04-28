@@ -56,12 +56,11 @@
         methods: {
             onSubmit () {
                 if(this.validForm()){
-                    console.log('valid')
-                    // this.$store.dispatch('signUp', this.formdata)
+                    this.$store.dispatch('signUp', this.formdata)
                 }
             },
             validForm(){
-                let error = false
+                let error = true
 
                 this.email_error = ''
                 this.password_error = ''

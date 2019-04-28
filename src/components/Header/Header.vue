@@ -2,7 +2,7 @@
     <header>
         <div class="container header_cont">
             <div class="logo">
-                Aw-App
+                Vue-Spa
             </div>
             <nav>
                 <ul>
